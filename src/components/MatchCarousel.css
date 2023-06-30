@@ -1,0 +1,69 @@
+.carousel {
+    overflow: hidden;
+    
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.7s;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+
+   
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    width: 100%;
+  
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    
+  }
+  
+  .indicators > button {
+
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    .indicators > button {
+        width: 25px;
+        height: 25px;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .inner {
+        margin-top: 2em;
+        margin-bottom: 2em;
+      }
+}
+  
+  .indicators > button.active {
+    background-color: rgba(51, 51, 51, 0.438);
+    color: #fff;
+
+    -webkit-box-shadow: 0px 0px 26px 7px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 26px 7px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 26px 7px rgba(0,0,0,0.39);
+
+  }
+
+  
