@@ -1,5 +1,7 @@
 # Sport match widget
 
+App showcases sports matches inside a carousel.
+
 ## How to start
 1.  Move to folder
 2.  Execute `npm install`
